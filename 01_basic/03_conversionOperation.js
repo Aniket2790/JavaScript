@@ -21,8 +21,15 @@ console.log(booleanIsLoogedIn);
 // "" => false
 // " aniket" => true
 
-let someNumber = 44;
+//let someNumber = 44;
 
-let stringSomeNumber = String(someNumber);
-console.log(stringSomeNumber);
-console.log(typeof stringSomeNumber);
+//let stringSomeNumber = String(someNumber);
+//console.log(stringSomeNumber);
+//console.log(typeof stringSomeNumber);
+
+//****************************OPERATIONS ********************* */
+
+let value = 3;
+
+let negvalue = -value;
+console.log(negvalue);
