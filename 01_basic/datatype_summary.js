@@ -23,3 +23,33 @@ const myFunction = function () {
 
 console.log(typeof myObj);
 console.log(typeof myFunction);
+
+//******************************************************* */
+
+// memory
+
+// there are two types of memory
+// 1 . stack  :- it is used for primitive datatypes  , it gives copy of value
+// 2 . heap :- it is used for non primitive datatypes  , it gives reference of value
+
+let myName = " Aniket tiwari";
+let anotherName = myName;
+
+ anotherName = " Arvind";
+console.log(myName);
+console.log(anotherName);
+
+
+// heap 
+
+let userOne={
+    email :"aniket23@gmail.com",
+    upiId :" abc@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email ="abc@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
